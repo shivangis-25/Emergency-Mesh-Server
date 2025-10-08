@@ -1,18 +1,16 @@
 {
-  "name": "message-sync-backend",
+  "name": "emergency-mesh-server",
   "version": "1.0.0",
-  "description": "Backend server for device message synchronization",
+  "description": "Emergency mesh network backend server",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
     "test": "node test_api.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "sqlite3": "^5.1.6"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  }
+  "type": "commonjs"
 }
